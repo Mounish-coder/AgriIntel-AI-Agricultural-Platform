@@ -1,0 +1,1 @@
+# AgriIntel-AI-Agricultural-Platform
