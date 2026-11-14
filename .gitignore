@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Local Databases & State
+*.db
+*.sqlite
+*.sqlite3
+marketmind.db
+**/marketmind.db
+
+# Sensitive Environment Configurations & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+!*.env.example
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Large Dataset Files (>50MB exceeds / nears GitHub 100MB limit)
+# Sample data and metadata are preserved
+*.parquet
+**/uploads/2024.csv
+**/uploads/2025.csv
+**/uploads/2026.csv
+data/uploads/2024.csv
+data/uploads/2025.csv
+data/uploads/2026.csv
+marketmind-ai/backend/data/uploads/2024.csv
+marketmind-ai/backend/data/uploads/2025.csv
+marketmind-ai/backend/data/uploads/2026.csv
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated Reports & Logs
+reports/*.pdf
+logs/
+*.log
